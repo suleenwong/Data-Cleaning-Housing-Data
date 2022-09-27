@@ -23,6 +23,6 @@ CREATE TABLE housing(
 );
 
 COPY housing
-FROM 'Nashville_Housing_Data_Data_Cleaning.csv'
+FROM 'nashville_housing_data.csv'
 DELIMITER ',' 
 CSV HEADER;
